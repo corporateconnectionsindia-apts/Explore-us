@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CC India | AP &amp; TS</title>
+<style>
+  :root { --bg1:#4a4a46; --bg2:#262626; --btn:#000; --text:#fff; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: var(--text);
+    background: radial-gradient(ellipse at 50% 20%, var(--bg1), var(--bg2) 70%) fixed;
+    display: flex; justify-content: center;
+  }
+  main { width: 100%; max-width: 480px; padding: 56px 16px 32px; text-align: center; }
+  .logo { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; background: #fff; }
+  h1 { font-size: 26px; font-weight: 600; margin: 22px 0 18px; }
+  .icons { display: flex; justify-content: center; gap: 28px; margin-bottom: 44px; }
+  .icons a { color: #fff; display: inline-flex; }
+  .icons svg { width: 32px; height: 32px; }
+  .link {
+    display: flex; align-items: center; position: relative;
+    background: var(--btn); color: #fff; text-decoration: none;
+    height: 72px; border-radius: 10px; margin-bottom: 16px; padding: 0 22px;
+    font-size: 17px; font-weight: 500;
+  }
+  .link:hover { background: #151515; }
+  .link:focus-visible, .icons a:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+  .link svg { width: 30px; height: 30px; flex: none; }
+  .link span { position: absolute; left: 0; right: 0; text-align: center; pointer-events: none; }
+</style>
+</head>
+<body>
+<main>
+  <!-- Upload your logo to the repository as logo.png -->
+  <img class="logo" src="logo.png" alt="Corporate Connections logo">
+  <h1>CC India | AP &amp; TS</h1>
+
+  <div class="icons">
+    <a href="https://instagram.com/corporateconnectionsindia_apts" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>
+    </a>
+    <a href="https://www.linkedin.com/company/corporateconnections-ap-telangana-india/" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11.5H3zM9.5 9.75h3.8v1.6h.05c.53-1 1.84-2.05 3.8-2.05 4.06 0 4.8 2.67 4.8 6.14v5.8h-4v-5.15c0-1.23-.02-2.8-1.7-2.8-1.7 0-1.96 1.33-1.96 2.7v5.25h-4z"/></svg>
+    </a>
+  </div>
+
+  <a class="link" href="https://instagram.com/corporateconnectionsindia_apts">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>
+    <span>Instagram</span>
+  </a>
+
+  <a class="link" href="https://www.linkedin.com/company/corporateconnections-ap-telangana-india/">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11.5H3zM9.5 9.75h3.8v1.6h.05c.53-1 1.84-2.05 3.8-2.05 4.06 0 4.8 2.67 4.8 6.14v5.8h-4v-5.15c0-1.23-.02-2.8-1.7-2.8-1.7 0-1.96 1.33-1.96 2.7v5.25h-4z"/></svg>
+    <span>LinkedIn</span>
+  </a>
+</main>
+</body>
+</html>
